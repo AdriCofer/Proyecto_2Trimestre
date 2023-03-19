@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masajes</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+  </head>
+  <body class="fondomasajes">
+    <header class="encabezadomasajes">
+      <h1 class="titulomasajes">Dream's Massages</h1>
+    <nav class="nav">
+        <ul class="navul">
+            <li class="navli"><a href="./index.html" class="nava">Inicio</a></li>
+          <li class="navli"><a href="#about" class="nava">Trabajadores</a></li>
+          <li class="navli"><a href="#services" class="nava">Servicios</a></li>
+          <li class="navli"><a href="#contact" class="nava">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="cuerpomasajes">
+      <section id="hero">
+        <h2>Relájate y disfruta de un masaje</h2>
+        <a href="#services" class="btn">Ver servicios</a>
+      </section>
+      <section id="about">
+        <p class="titulotrabajadores">Trabajadores</p>
+        <p class="textotrabajadores">Los masajistas que trabajan en Dream's son profesionales que ofrecen sus servicios en un ambiente nocturno 
+            y festivo. A menudo, se encuentran en un área de la discoteca reservada para servicios de masaje, donde los clientes pueden disfrutar de 
+            un masaje relajante en medio de la música y la actividad de la discoteca. <br>
+            Estos masajistas son expertos en técnicas de masaje relajante y terapéutico que pueden ayudar a los clientes a aliviar el estrés y 
+            la tensión muscular después de una noche de baile y movimiento. También pueden ofrecer masajes en la cabeza, los pies y las manos para 
+            proporcionar una sensación general de bienestar. <br>
+            Además de ser expertos en técnicas de masaje, nuestros masajistas tienen
+            habilidades interpersonales excepcionales y son capaces de trabajar en un ambiente ruidoso y agitado. Además, son 
+            capaces de comunicarse efectivamente con los clientes y responder a sus necesidades, mientras que al mismo tiempo mantienen 
+            una actitud profesional y respetuosa. <br>
+            En resumen, los masajistas de Dream's son profesionales altamente capacitados que ofrecen un servicio invaluable a los clientes 
+            de la discoteca. Su habilidad para proporcionar un masaje relajante y terapéutico en medio de una atmósfera festiva los convierte en una parte importante 
+            de la experiencia de la discoteca.</p>
+      </section>
+      <section id="services">
+        <h2 class="titulotrabajadores">Nuestros servicios</h2>
+        <ul>
+          <li>
+            <h3><u> Masaje sueco</u></h3>
+            <p>Un masaje relajante de cuerpo completo que utiliza movimientos suaves y largos para reducir el estrés y la tensión muscular.</p>
+            <p>Precio: 50€ por hora</p>
+            <a href="#contact" class="btn">Reservar ahora</a>
+          </li>
+          <li>
+            <h3><u> Masaje de tejido <br> profundo</u></h3>
+            <p>Un masaje terapéutico que se enfoca en las capas más profundas del tejido muscular para aliviar la tensión y el dolor crónico.</p>
+            <p>Precio: 70€ por hora</p>
+            <a href="#contact" class="btn">Reservar ahora</a>
+          </li>
+          <li>
+            <h3><u> Masaje de piedras <br> calientes</u></h3>
+            <p>Un masaje relajante que utiliza piedras calientes para aliviar el estrés y la tensión muscular.</p>
+            <p>Precio: 60€ por hora</p>
+            <a href="#contact" class="btn">Reservar ahora</a>
+          </li>
+          <li>
+            <h3><u>Masaje oriental <br> Shiatsu</u></h3>
+            <p>Se trata de un masaje muy suave o de intensidad moderada muy agradable de recibir. El terapeuta utiliza los pulgares y las palmas de las manos para presionar puntos concretos del cuerpo, incorporando otras técnicas que pueden ir desde estiramientos a manipulaciones articulares. </p>
+            <p>Precio: 100€ por hora</p>
+            <a href="#contact" class="btn">Reservar ahora</a>
+          </li>
+          <li>
+            <h3><u> Masaje tailandés <br> tradicional</u></h3>
+            <p>El masaje tradicional tailandés ayuda a aliviar la tensión de los músculos, los tendones y las articulaciones.  Sirve, además, para promover la relajación total, y para aportar vitalidad y un nuevo equilibrio mente-cuerpo.</p>
+            <p>Precio: 100€ por hora</p>
+            <a href="#contact" class="btn">Reservar ahora</a>
+          </li>
+          <li>
+            <h3><u> Masaje erótico <br> oriental</u></h3>
+            <p>Las sensaciones que experimentarás en un masaje erótico oriental son únicas y te darás cuenta desde un primer momento, cuando comiencen a aplicarte en algunos puntos de tu cuerpo aceite, que mediante movimientos ligeros y sensuales de las manos tu masajista, te harán sentir en otro nivel.</p>
+            <p>Precio: 120€ por hora</p>
+            <a href="#contact" class="btn">Reservar ahora</a>
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2 class="titulotrabajadores">Contacto</h2>
+        <form action="">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label>Tipo de masaje: <br>
+            <input list="poblacion" name="list" id="" required>
+            <datalist id="poblacion">
+                <option value="Masaje sueco"></option>
+                <option value="Masaje de tejido profundo"></option>
+                <option value="Masaje de piedras calientes"></option>
+                <option value="Masaje oriental Shiatsu"></option>
+                <option value=" Masaje tailandés tradicional"></option>
+                <option value="Masaje erótico oriental"></option>
+            </datalist></label>
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" required placeholder="Introducir el evento. Además de alguna especificación."></textarea>
+          <button type="submit" class="btn">Enviar</button> <br>
+          <button type="reset" class="btn">Borrar</button>
+        </form>
+      </section>
+    </main>
+    <footer class="pieacerca">
+      <p>&copy; 2023 Discoteca Dream's. Todos los derechos reservados.</p>
+    </footer>
+    <script src="./java/java.js"></script>
+  </body>
+</html>

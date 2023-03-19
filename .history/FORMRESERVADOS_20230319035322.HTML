@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="htmlreserva">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kranky&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="icon" href="./icon/favicon.png" type="image/png">
+
+	<title>RESERVA</title>
+</head>
+<body class="bodyreserva">
+	<div class="container">
+		<form action="" class="formreserva">
+			<header class="header">
+				<h1 class="h1">R<span>eserva</span></h1>
+			</header>
+			<label for="name" class="form_label">Nombre:</label>
+			<input type="text" class="form_input" name="nombre" placeholder="Nombre" id="name">
+
+			<label for="apellido" class="form_label">Apellidos:</label>
+			<input type="text" class="form_input" name="apellido" placeholder="Apellido" id="apellido">
+
+			<label for="num-asistentes class="form_label">Personas:</label>
+			<input type="number" class="form_input" name="num-asistentes" min="1" max="15" placeholder="Personas" id="num-asistentes" required>
+			
+
+			<label for="correo" class="form_label">Correo Electrónico</label>
+			<input type="email" class="form_input" name="correo" placeholder="Se confirmará su reserva" id="correo">
+
+			<label for="mensaje" class="form_label">Dinos que van a querer:</label>
+			<textarea class="form_text" name="mensaje" id="mensaje" placeholder="Gustos personales"></textarea>
+			<input type="submit" class="enviar" value="Enviar la reserva">
+
+
+		</form>
+	</div>
+	<footer class="pieacerca">
+		<p>&copy; 2023 Discoteca Dream's. Todos los derechos reservados.</p>
+	  </footer>
+</body>
+</html>
